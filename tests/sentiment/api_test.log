@@ -1,0 +1,488 @@
+2024-05-22 11:05:12,215 - root - INFO - Started logging
+2024-05-22 11:05:12,225 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=alice&password=wonderland&sentence=life%20is%20beautiful "HTTP/1.1 200 OK"
+2024-05-22 11:05:12,226 - root - INFO - 200
+2024-05-22 11:05:12,226 - root - INFO - {'username': 'alice', 'version': 'v1', 'sentence': 'life is beautiful', 'score': 0.5994}
+2024-05-22 11:05:12,236 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=alice&password=wonderland&sentence=life%20is%20beautiful "HTTP/1.1 200 OK"
+2024-05-22 11:05:12,237 - root - INFO - 200
+2024-05-22 11:05:12,237 - root - INFO - {'username': 'alice', 'version': 'v2', 'sentence': 'life is beautiful', 'score': 0.5994}
+2024-05-22 11:05:12,238 - root - INFO - Started logging
+2024-05-22 11:05:12,238 - root - INFO - Started logging
+2024-05-22 11:05:12,245 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=life%20is%20beautiful "HTTP/1.1 200 OK"
+2024-05-22 11:05:12,245 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=life%20is%20beautiful "HTTP/1.1 200 OK"
+2024-05-22 11:05:12,245 - root - INFO - 200
+2024-05-22 11:05:12,245 - root - INFO - 200
+2024-05-22 11:05:12,245 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'life is beautiful', 'score': 0.5994}
+2024-05-22 11:05:12,245 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'life is beautiful', 'score': 0.5994}
+2024-05-22 11:05:12,252 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,252 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,254 - root - INFO - 403
+2024-05-22 11:05:12,254 - root - INFO - 403
+2024-05-22 11:05:12,255 - root - INFO - Started logging
+2024-05-22 11:05:12,255 - root - INFO - Started logging
+2024-05-22 11:05:12,255 - root - INFO - Started logging
+2024-05-22 11:05:12,263 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,263 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,263 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,263 - root - INFO - 403
+2024-05-22 11:05:12,263 - root - INFO - 403
+2024-05-22 11:05:12,263 - root - INFO - 403
+2024-05-22 11:05:12,270 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,270 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,270 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,272 - root - INFO - 403
+2024-05-22 11:05:12,272 - root - INFO - 403
+2024-05-22 11:05:12,272 - root - INFO - 403
+2024-05-22 11:05:12,275 - root - INFO - Started logging
+2024-05-22 11:05:12,275 - root - INFO - Started logging
+2024-05-22 11:05:12,275 - root - INFO - Started logging
+2024-05-22 11:05:12,275 - root - INFO - Started logging
+2024-05-22 11:05:12,282 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:05:12,282 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:05:12,282 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:05:12,282 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:05:12,282 - root - INFO - 200
+2024-05-22 11:05:12,282 - root - INFO - 200
+2024-05-22 11:05:12,282 - root - INFO - 200
+2024-05-22 11:05:12,282 - root - INFO - 200
+2024-05-22 11:05:12,283 - root - INFO - {'username': 'alice', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:05:12,283 - root - INFO - {'username': 'alice', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:05:12,283 - root - INFO - {'username': 'alice', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:05:12,283 - root - INFO - {'username': 'alice', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:05:12,289 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:05:12,289 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:05:12,289 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:05:12,289 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:05:12,290 - root - INFO - 200
+2024-05-22 11:05:12,290 - root - INFO - 200
+2024-05-22 11:05:12,290 - root - INFO - 200
+2024-05-22 11:05:12,290 - root - INFO - 200
+2024-05-22 11:05:12,290 - root - INFO - {'username': 'alice', 'version': 'v2', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:05:12,290 - root - INFO - {'username': 'alice', 'version': 'v2', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:05:12,290 - root - INFO - {'username': 'alice', 'version': 'v2', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:05:12,290 - root - INFO - {'username': 'alice', 'version': 'v2', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:05:12,292 - root - INFO - Started logging
+2024-05-22 11:05:12,292 - root - INFO - Started logging
+2024-05-22 11:05:12,292 - root - INFO - Started logging
+2024-05-22 11:05:12,292 - root - INFO - Started logging
+2024-05-22 11:05:12,292 - root - INFO - Started logging
+2024-05-22 11:05:12,298 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:05:12,298 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:05:12,298 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:05:12,298 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:05:12,298 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:05:12,299 - root - INFO - 200
+2024-05-22 11:05:12,299 - root - INFO - 200
+2024-05-22 11:05:12,299 - root - INFO - 200
+2024-05-22 11:05:12,299 - root - INFO - 200
+2024-05-22 11:05:12,299 - root - INFO - 200
+2024-05-22 11:05:12,299 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:05:12,299 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:05:12,299 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:05:12,299 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:05:12,299 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:05:12,307 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,307 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,307 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,307 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,307 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,307 - root - INFO - 403
+2024-05-22 11:05:12,307 - root - INFO - 403
+2024-05-22 11:05:12,307 - root - INFO - 403
+2024-05-22 11:05:12,307 - root - INFO - 403
+2024-05-22 11:05:12,307 - root - INFO - 403
+2024-05-22 11:05:12,309 - root - INFO - Started logging
+2024-05-22 11:05:12,309 - root - INFO - Started logging
+2024-05-22 11:05:12,309 - root - INFO - Started logging
+2024-05-22 11:05:12,309 - root - INFO - Started logging
+2024-05-22 11:05:12,309 - root - INFO - Started logging
+2024-05-22 11:05:12,309 - root - INFO - Started logging
+2024-05-22 11:05:12,315 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,315 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,315 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,315 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,315 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,315 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,316 - root - INFO - 403
+2024-05-22 11:05:12,316 - root - INFO - 403
+2024-05-22 11:05:12,316 - root - INFO - 403
+2024-05-22 11:05:12,316 - root - INFO - 403
+2024-05-22 11:05:12,316 - root - INFO - 403
+2024-05-22 11:05:12,316 - root - INFO - 403
+2024-05-22 11:05:12,323 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,323 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,323 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,323 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,323 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,323 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,323 - root - INFO - 403
+2024-05-22 11:05:12,323 - root - INFO - 403
+2024-05-22 11:05:12,323 - root - INFO - 403
+2024-05-22 11:05:12,323 - root - INFO - 403
+2024-05-22 11:05:12,323 - root - INFO - 403
+2024-05-22 11:05:12,323 - root - INFO - 403
+2024-05-22 11:06:15,703 - root - INFO - Started logging
+2024-05-22 11:06:15,713 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=alice&password=wonderland&sentence=life%20is%20beautiful "HTTP/1.1 200 OK"
+2024-05-22 11:06:15,714 - root - INFO - 200
+2024-05-22 11:06:15,714 - root - INFO - {'username': 'alice', 'version': 'v1', 'sentence': 'life is beautiful', 'score': 0.5994}
+2024-05-22 11:06:15,721 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=alice&password=wonderland&sentence=life%20is%20beautiful "HTTP/1.1 200 OK"
+2024-05-22 11:06:15,721 - root - INFO - 200
+2024-05-22 11:06:15,722 - root - INFO - {'username': 'alice', 'version': 'v2', 'sentence': 'life is beautiful', 'score': 0.5994}
+2024-05-22 11:06:15,723 - root - INFO - Started logging
+2024-05-22 11:06:15,723 - root - INFO - Started logging
+2024-05-22 11:06:15,733 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=life%20is%20beautiful "HTTP/1.1 200 OK"
+2024-05-22 11:06:15,733 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=life%20is%20beautiful "HTTP/1.1 200 OK"
+2024-05-22 11:06:15,734 - root - INFO - 200
+2024-05-22 11:06:15,734 - root - INFO - 200
+2024-05-22 11:06:15,734 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'life is beautiful', 'score': 0.5994}
+2024-05-22 11:06:15,734 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'life is beautiful', 'score': 0.5994}
+2024-05-22 11:06:15,742 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,742 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,742 - root - INFO - 403
+2024-05-22 11:06:15,742 - root - INFO - 403
+2024-05-22 11:06:15,744 - root - INFO - Started logging
+2024-05-22 11:06:15,744 - root - INFO - Started logging
+2024-05-22 11:06:15,744 - root - INFO - Started logging
+2024-05-22 11:06:15,751 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,751 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,751 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,752 - root - INFO - 403
+2024-05-22 11:06:15,752 - root - INFO - 403
+2024-05-22 11:06:15,752 - root - INFO - 403
+2024-05-22 11:06:15,760 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,760 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,760 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,763 - root - INFO - 403
+2024-05-22 11:06:15,763 - root - INFO - 403
+2024-05-22 11:06:15,763 - root - INFO - 403
+2024-05-22 11:06:15,767 - root - INFO - Started logging
+2024-05-22 11:06:15,767 - root - INFO - Started logging
+2024-05-22 11:06:15,767 - root - INFO - Started logging
+2024-05-22 11:06:15,767 - root - INFO - Started logging
+2024-05-22 11:06:15,775 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:06:15,775 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:06:15,775 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:06:15,775 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:06:15,776 - root - INFO - 200
+2024-05-22 11:06:15,776 - root - INFO - 200
+2024-05-22 11:06:15,776 - root - INFO - 200
+2024-05-22 11:06:15,776 - root - INFO - 200
+2024-05-22 11:06:15,776 - root - INFO - {'username': 'alice', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:06:15,776 - root - INFO - {'username': 'alice', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:06:15,776 - root - INFO - {'username': 'alice', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:06:15,776 - root - INFO - {'username': 'alice', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:06:15,783 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:06:15,783 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:06:15,783 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:06:15,783 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:06:15,784 - root - INFO - 200
+2024-05-22 11:06:15,784 - root - INFO - 200
+2024-05-22 11:06:15,784 - root - INFO - 200
+2024-05-22 11:06:15,784 - root - INFO - 200
+2024-05-22 11:06:15,784 - root - INFO - {'username': 'alice', 'version': 'v2', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:06:15,784 - root - INFO - {'username': 'alice', 'version': 'v2', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:06:15,784 - root - INFO - {'username': 'alice', 'version': 'v2', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:06:15,784 - root - INFO - {'username': 'alice', 'version': 'v2', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:06:15,786 - root - INFO - Started logging
+2024-05-22 11:06:15,786 - root - INFO - Started logging
+2024-05-22 11:06:15,786 - root - INFO - Started logging
+2024-05-22 11:06:15,786 - root - INFO - Started logging
+2024-05-22 11:06:15,786 - root - INFO - Started logging
+2024-05-22 11:06:15,793 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:06:15,793 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:06:15,793 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:06:15,793 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:06:15,793 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:06:15,793 - root - INFO - 200
+2024-05-22 11:06:15,793 - root - INFO - 200
+2024-05-22 11:06:15,793 - root - INFO - 200
+2024-05-22 11:06:15,793 - root - INFO - 200
+2024-05-22 11:06:15,793 - root - INFO - 200
+2024-05-22 11:06:15,794 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:06:15,794 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:06:15,794 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:06:15,794 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:06:15,794 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:06:15,799 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,799 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,799 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,799 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,799 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,800 - root - INFO - 403
+2024-05-22 11:06:15,800 - root - INFO - 403
+2024-05-22 11:06:15,800 - root - INFO - 403
+2024-05-22 11:06:15,800 - root - INFO - 403
+2024-05-22 11:06:15,800 - root - INFO - 403
+2024-05-22 11:06:15,802 - root - INFO - Started logging
+2024-05-22 11:06:15,802 - root - INFO - Started logging
+2024-05-22 11:06:15,802 - root - INFO - Started logging
+2024-05-22 11:06:15,802 - root - INFO - Started logging
+2024-05-22 11:06:15,802 - root - INFO - Started logging
+2024-05-22 11:06:15,802 - root - INFO - Started logging
+2024-05-22 11:06:15,808 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,808 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,808 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,808 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,808 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,808 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,808 - root - INFO - 403
+2024-05-22 11:06:15,808 - root - INFO - 403
+2024-05-22 11:06:15,808 - root - INFO - 403
+2024-05-22 11:06:15,808 - root - INFO - 403
+2024-05-22 11:06:15,808 - root - INFO - 403
+2024-05-22 11:06:15,808 - root - INFO - 403
+2024-05-22 11:06:15,814 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,814 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,814 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,814 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,814 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,814 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,815 - root - INFO - 403
+2024-05-22 11:06:15,815 - root - INFO - 403
+2024-05-22 11:06:15,815 - root - INFO - 403
+2024-05-22 11:06:15,815 - root - INFO - 403
+2024-05-22 11:06:15,815 - root - INFO - 403
+2024-05-22 11:06:15,815 - root - INFO - 403
+2024-05-22 11:18:13,820 - root - INFO - Started logging
+2024-05-22 11:18:13,831 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=alice&password=wonderland&sentence=life%20is%20beautiful "HTTP/1.1 200 OK"
+2024-05-22 11:18:13,832 - root - INFO - 200
+2024-05-22 11:18:13,832 - root - INFO - {'username': 'alice', 'version': 'v1', 'sentence': 'life is beautiful', 'score': 0.5994}
+2024-05-22 11:18:13,840 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=alice&password=wonderland&sentence=life%20is%20beautiful "HTTP/1.1 200 OK"
+2024-05-22 11:18:13,841 - root - INFO - 200
+2024-05-22 11:18:13,842 - root - INFO - {'username': 'alice', 'version': 'v2', 'sentence': 'life is beautiful', 'score': 0.5994}
+2024-05-22 11:18:13,843 - root - INFO - Started logging
+2024-05-22 11:18:13,843 - root - INFO - Started logging
+2024-05-22 11:18:13,853 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=life%20is%20beautiful "HTTP/1.1 200 OK"
+2024-05-22 11:18:13,853 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=life%20is%20beautiful "HTTP/1.1 200 OK"
+2024-05-22 11:18:13,854 - root - INFO - 200
+2024-05-22 11:18:13,854 - root - INFO - 200
+2024-05-22 11:18:13,855 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'life is beautiful', 'score': 0.5994}
+2024-05-22 11:18:13,855 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'life is beautiful', 'score': 0.5994}
+2024-05-22 11:18:13,863 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,863 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,863 - root - INFO - 403
+2024-05-22 11:18:13,863 - root - INFO - 403
+2024-05-22 11:18:13,866 - root - INFO - Started logging
+2024-05-22 11:18:13,866 - root - INFO - Started logging
+2024-05-22 11:18:13,866 - root - INFO - Started logging
+2024-05-22 11:18:13,878 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,878 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,878 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,878 - root - INFO - 403
+2024-05-22 11:18:13,878 - root - INFO - 403
+2024-05-22 11:18:13,878 - root - INFO - 403
+2024-05-22 11:18:13,889 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,889 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,889 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,892 - root - INFO - 403
+2024-05-22 11:18:13,892 - root - INFO - 403
+2024-05-22 11:18:13,892 - root - INFO - 403
+2024-05-22 11:18:13,894 - root - INFO - Started logging
+2024-05-22 11:18:13,894 - root - INFO - Started logging
+2024-05-22 11:18:13,894 - root - INFO - Started logging
+2024-05-22 11:18:13,894 - root - INFO - Started logging
+2024-05-22 11:18:13,901 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:13,901 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:13,901 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:13,901 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:13,902 - root - INFO - 200
+2024-05-22 11:18:13,902 - root - INFO - 200
+2024-05-22 11:18:13,902 - root - INFO - 200
+2024-05-22 11:18:13,902 - root - INFO - 200
+2024-05-22 11:18:13,905 - root - INFO - {'username': 'alice', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:13,905 - root - INFO - {'username': 'alice', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:13,905 - root - INFO - {'username': 'alice', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:13,905 - root - INFO - {'username': 'alice', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:13,913 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:13,913 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:13,913 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:13,913 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:13,914 - root - INFO - 200
+2024-05-22 11:18:13,914 - root - INFO - 200
+2024-05-22 11:18:13,914 - root - INFO - 200
+2024-05-22 11:18:13,914 - root - INFO - 200
+2024-05-22 11:18:13,914 - root - INFO - {'username': 'alice', 'version': 'v2', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:13,914 - root - INFO - {'username': 'alice', 'version': 'v2', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:13,914 - root - INFO - {'username': 'alice', 'version': 'v2', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:13,914 - root - INFO - {'username': 'alice', 'version': 'v2', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:13,916 - root - INFO - Started logging
+2024-05-22 11:18:13,916 - root - INFO - Started logging
+2024-05-22 11:18:13,916 - root - INFO - Started logging
+2024-05-22 11:18:13,916 - root - INFO - Started logging
+2024-05-22 11:18:13,916 - root - INFO - Started logging
+2024-05-22 11:18:13,922 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:13,922 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:13,922 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:13,922 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:13,922 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:13,923 - root - INFO - 200
+2024-05-22 11:18:13,923 - root - INFO - 200
+2024-05-22 11:18:13,923 - root - INFO - 200
+2024-05-22 11:18:13,923 - root - INFO - 200
+2024-05-22 11:18:13,923 - root - INFO - 200
+2024-05-22 11:18:13,923 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:13,923 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:13,923 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:13,923 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:13,923 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:13,930 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,930 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,930 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,930 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,930 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,931 - root - INFO - 403
+2024-05-22 11:18:13,931 - root - INFO - 403
+2024-05-22 11:18:13,931 - root - INFO - 403
+2024-05-22 11:18:13,931 - root - INFO - 403
+2024-05-22 11:18:13,931 - root - INFO - 403
+2024-05-22 11:18:13,933 - root - INFO - Started logging
+2024-05-22 11:18:13,933 - root - INFO - Started logging
+2024-05-22 11:18:13,933 - root - INFO - Started logging
+2024-05-22 11:18:13,933 - root - INFO - Started logging
+2024-05-22 11:18:13,933 - root - INFO - Started logging
+2024-05-22 11:18:13,933 - root - INFO - Started logging
+2024-05-22 11:18:13,939 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,939 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,939 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,939 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,939 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,939 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,940 - root - INFO - 403
+2024-05-22 11:18:13,940 - root - INFO - 403
+2024-05-22 11:18:13,940 - root - INFO - 403
+2024-05-22 11:18:13,940 - root - INFO - 403
+2024-05-22 11:18:13,940 - root - INFO - 403
+2024-05-22 11:18:13,940 - root - INFO - 403
+2024-05-22 11:18:13,946 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,946 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,946 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,946 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,946 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,946 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,947 - root - INFO - 403
+2024-05-22 11:18:13,947 - root - INFO - 403
+2024-05-22 11:18:13,947 - root - INFO - 403
+2024-05-22 11:18:13,947 - root - INFO - 403
+2024-05-22 11:18:13,947 - root - INFO - 403
+2024-05-22 11:18:13,947 - root - INFO - 403
+2024-05-22 11:18:59,620 - root - INFO - Started logging
+2024-05-22 11:18:59,631 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=alice&password=wonderland&sentence=life%20is%20beautiful "HTTP/1.1 200 OK"
+2024-05-22 11:18:59,631 - root - INFO - 200
+2024-05-22 11:18:59,632 - root - INFO - {'username': 'alice', 'version': 'v1', 'sentence': 'life is beautiful', 'score': 0.5994}
+2024-05-22 11:18:59,639 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=alice&password=wonderland&sentence=life%20is%20beautiful "HTTP/1.1 200 OK"
+2024-05-22 11:18:59,639 - root - INFO - 200
+2024-05-22 11:18:59,639 - root - INFO - {'username': 'alice', 'version': 'v2', 'sentence': 'life is beautiful', 'score': 0.5994}
+2024-05-22 11:18:59,641 - root - INFO - Started logging
+2024-05-22 11:18:59,641 - root - INFO - Started logging
+2024-05-22 11:18:59,647 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=life%20is%20beautiful "HTTP/1.1 200 OK"
+2024-05-22 11:18:59,647 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=life%20is%20beautiful "HTTP/1.1 200 OK"
+2024-05-22 11:18:59,648 - root - INFO - 200
+2024-05-22 11:18:59,648 - root - INFO - 200
+2024-05-22 11:18:59,648 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'life is beautiful', 'score': 0.5994}
+2024-05-22 11:18:59,648 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'life is beautiful', 'score': 0.5994}
+2024-05-22 11:18:59,657 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,657 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,658 - root - INFO - 403
+2024-05-22 11:18:59,658 - root - INFO - 403
+2024-05-22 11:18:59,659 - root - INFO - Started logging
+2024-05-22 11:18:59,659 - root - INFO - Started logging
+2024-05-22 11:18:59,659 - root - INFO - Started logging
+2024-05-22 11:18:59,666 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,666 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,666 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,667 - root - INFO - 403
+2024-05-22 11:18:59,667 - root - INFO - 403
+2024-05-22 11:18:59,667 - root - INFO - 403
+2024-05-22 11:18:59,674 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,674 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,674 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=life%20is%20beautiful "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,677 - root - INFO - 403
+2024-05-22 11:18:59,677 - root - INFO - 403
+2024-05-22 11:18:59,677 - root - INFO - 403
+2024-05-22 11:18:59,681 - root - INFO - Started logging
+2024-05-22 11:18:59,681 - root - INFO - Started logging
+2024-05-22 11:18:59,681 - root - INFO - Started logging
+2024-05-22 11:18:59,681 - root - INFO - Started logging
+2024-05-22 11:18:59,689 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:59,689 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:59,689 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:59,689 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:59,690 - root - INFO - 200
+2024-05-22 11:18:59,690 - root - INFO - 200
+2024-05-22 11:18:59,690 - root - INFO - 200
+2024-05-22 11:18:59,690 - root - INFO - 200
+2024-05-22 11:18:59,691 - root - INFO - {'username': 'alice', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:59,691 - root - INFO - {'username': 'alice', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:59,691 - root - INFO - {'username': 'alice', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:59,691 - root - INFO - {'username': 'alice', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:59,701 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:59,701 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:59,701 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:59,701 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=alice&password=wonderland&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:59,701 - root - INFO - 200
+2024-05-22 11:18:59,701 - root - INFO - 200
+2024-05-22 11:18:59,701 - root - INFO - 200
+2024-05-22 11:18:59,701 - root - INFO - 200
+2024-05-22 11:18:59,702 - root - INFO - {'username': 'alice', 'version': 'v2', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:59,702 - root - INFO - {'username': 'alice', 'version': 'v2', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:59,702 - root - INFO - {'username': 'alice', 'version': 'v2', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:59,702 - root - INFO - {'username': 'alice', 'version': 'v2', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:59,704 - root - INFO - Started logging
+2024-05-22 11:18:59,704 - root - INFO - Started logging
+2024-05-22 11:18:59,704 - root - INFO - Started logging
+2024-05-22 11:18:59,704 - root - INFO - Started logging
+2024-05-22 11:18:59,704 - root - INFO - Started logging
+2024-05-22 11:18:59,710 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:59,710 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:59,710 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:59,710 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:59,710 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 200 OK"
+2024-05-22 11:18:59,711 - root - INFO - 200
+2024-05-22 11:18:59,711 - root - INFO - 200
+2024-05-22 11:18:59,711 - root - INFO - 200
+2024-05-22 11:18:59,711 - root - INFO - 200
+2024-05-22 11:18:59,711 - root - INFO - 200
+2024-05-22 11:18:59,711 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:59,711 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:59,711 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:59,711 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:59,711 - root - INFO - {'username': 'bob', 'version': 'v1', 'sentence': 'that sucks', 'score': -0.3612}
+2024-05-22 11:18:59,723 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,723 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,723 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,723 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,723 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=bob&password=builder&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,723 - root - INFO - 403
+2024-05-22 11:18:59,723 - root - INFO - 403
+2024-05-22 11:18:59,723 - root - INFO - 403
+2024-05-22 11:18:59,723 - root - INFO - 403
+2024-05-22 11:18:59,723 - root - INFO - 403
+2024-05-22 11:18:59,725 - root - INFO - Started logging
+2024-05-22 11:18:59,725 - root - INFO - Started logging
+2024-05-22 11:18:59,725 - root - INFO - Started logging
+2024-05-22 11:18:59,725 - root - INFO - Started logging
+2024-05-22 11:18:59,725 - root - INFO - Started logging
+2024-05-22 11:18:59,725 - root - INFO - Started logging
+2024-05-22 11:18:59,731 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,731 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,731 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,731 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,731 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,731 - httpx - INFO - HTTP Request: GET http://api:8000/v1/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,732 - root - INFO - 403
+2024-05-22 11:18:59,732 - root - INFO - 403
+2024-05-22 11:18:59,732 - root - INFO - 403
+2024-05-22 11:18:59,732 - root - INFO - 403
+2024-05-22 11:18:59,732 - root - INFO - 403
+2024-05-22 11:18:59,732 - root - INFO - 403
+2024-05-22 11:18:59,739 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,739 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,739 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,739 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,739 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,739 - httpx - INFO - HTTP Request: GET http://api:8000/v2/sentiment?username=clementine&password=mandarine&sentence=that%20sucks "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,739 - root - INFO - 403
+2024-05-22 11:18:59,739 - root - INFO - 403
+2024-05-22 11:18:59,739 - root - INFO - 403
+2024-05-22 11:18:59,739 - root - INFO - 403
+2024-05-22 11:18:59,739 - root - INFO - 403
+2024-05-22 11:18:59,739 - root - INFO - 403

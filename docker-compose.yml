@@ -1,0 +1,47 @@
+version: '1.0'
+services:
+  sentiment-analyzer:
+    image: datascientest/fastapi:1.0.0
+    container_name: api
+    ports:
+    - target: 8000
+      published: 8000
+      protocol: tcp
+      mode: bridge
+
+  authentication-tests:
+    depends_on:
+      - sentiment-analyzer
+    build: ./tests/authentication
+    environment:
+      LOG: 1
+      ADDRESS: api
+      PORT: 8000
+    command: pytest -k test_authentication
+    volumes:
+      - ./tests/authentication:/usr/src/app/
+
+  authorization-tests:
+    depends_on:
+      - sentiment-analyzer
+    build: ./tests/authorization
+    environment:
+      LOG: 1
+      ADDRESS: api
+      PORT: 8000
+    command: pytest -k test_things
+    volumes:
+      - ./tests/authorization:/usr/src/app/
+
+  sentiment-tests:
+    depends_on:
+      - sentiment-analyzer
+    build: ./tests/sentiment
+    environment:
+      LOG: 1
+      ADDRESS: api
+      PORT: 8000
+    command: pytest -k test_things
+    volumes:
+      - ./tests/sentiment:/usr/src/app/
+

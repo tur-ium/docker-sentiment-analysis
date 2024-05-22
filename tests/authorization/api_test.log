@@ -1,0 +1,108 @@
+2024-05-22 11:05:12,162 - root - INFO - Started logging
+2024-05-22 11:05:12,173 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=alice&password=wonderland "HTTP/1.1 200 OK"
+2024-05-22 11:05:12,176 - root - INFO - Started logging
+2024-05-22 11:05:12,176 - root - INFO - Started logging
+2024-05-22 11:05:12,184 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=bob&password=builder "HTTP/1.1 200 OK"
+2024-05-22 11:05:12,184 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=bob&password=builder "HTTP/1.1 200 OK"
+2024-05-22 11:05:12,187 - root - INFO - Started logging
+2024-05-22 11:05:12,187 - root - INFO - Started logging
+2024-05-22 11:05:12,187 - root - INFO - Started logging
+2024-05-22 11:05:12,196 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,196 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:05:12,196 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,682 - root - INFO - Started logging
+2024-05-22 11:06:15,691 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=alice&password=wonderland "HTTP/1.1 200 OK"
+2024-05-22 11:06:15,693 - root - INFO - Started logging
+2024-05-22 11:06:15,693 - root - INFO - Started logging
+2024-05-22 11:06:15,700 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=bob&password=builder "HTTP/1.1 200 OK"
+2024-05-22 11:06:15,700 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=bob&password=builder "HTTP/1.1 200 OK"
+2024-05-22 11:06:15,702 - root - INFO - Started logging
+2024-05-22 11:06:15,702 - root - INFO - Started logging
+2024-05-22 11:06:15,702 - root - INFO - Started logging
+2024-05-22 11:06:15,710 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,710 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:06:15,710 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:09:04,995 - root - INFO - Started logging
+2024-05-22 11:09:05,008 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=alice&password=wonderland "HTTP/1.1 200 OK"
+2024-05-22 11:09:05,011 - root - INFO - Started logging
+2024-05-22 11:09:05,011 - root - INFO - Started logging
+2024-05-22 11:09:05,019 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=bob&password=builder "HTTP/1.1 200 OK"
+2024-05-22 11:09:05,019 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=bob&password=builder "HTTP/1.1 200 OK"
+2024-05-22 11:09:05,023 - root - INFO - Started logging
+2024-05-22 11:09:05,023 - root - INFO - Started logging
+2024-05-22 11:09:05,023 - root - INFO - Started logging
+2024-05-22 11:09:05,032 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:09:05,032 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:09:05,032 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:09:52,669 - root - INFO - Started logging
+2024-05-22 11:09:52,679 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=alice&password=wonderland "HTTP/1.1 200 OK"
+2024-05-22 11:09:52,682 - root - INFO - Started logging
+2024-05-22 11:09:52,682 - root - INFO - Started logging
+2024-05-22 11:09:52,688 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=bob&password=builder "HTTP/1.1 200 OK"
+2024-05-22 11:09:52,688 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=bob&password=builder "HTTP/1.1 200 OK"
+2024-05-22 11:09:52,691 - root - INFO - Started logging
+2024-05-22 11:09:52,691 - root - INFO - Started logging
+2024-05-22 11:09:52,691 - root - INFO - Started logging
+2024-05-22 11:09:52,701 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:09:52,701 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:09:52,701 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:13:05,944 - root - INFO - Started logging
+2024-05-22 11:13:05,953 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=alice&password=wonderland "HTTP/1.1 200 OK"
+2024-05-22 11:13:05,955 - root - INFO - Started logging
+2024-05-22 11:13:05,955 - root - INFO - Started logging
+2024-05-22 11:13:05,964 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=bob&password=builder "HTTP/1.1 200 OK"
+2024-05-22 11:13:05,964 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=bob&password=builder "HTTP/1.1 200 OK"
+2024-05-22 11:13:05,966 - root - INFO - Started logging
+2024-05-22 11:13:05,966 - root - INFO - Started logging
+2024-05-22 11:13:05,966 - root - INFO - Started logging
+2024-05-22 11:13:05,974 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:13:05,974 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:13:05,974 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:16:29,175 - root - INFO - Started logging
+2024-05-22 11:16:29,184 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=alice&password=wonderland "HTTP/1.1 200 OK"
+2024-05-22 11:16:29,187 - root - INFO - Started logging
+2024-05-22 11:16:29,187 - root - INFO - Started logging
+2024-05-22 11:16:29,194 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=bob&password=builder "HTTP/1.1 200 OK"
+2024-05-22 11:16:29,194 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=bob&password=builder "HTTP/1.1 200 OK"
+2024-05-22 11:16:29,196 - root - INFO - Started logging
+2024-05-22 11:16:29,196 - root - INFO - Started logging
+2024-05-22 11:16:29,196 - root - INFO - Started logging
+2024-05-22 11:16:29,204 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:16:29,204 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:16:29,204 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:17:10,210 - root - INFO - Started logging
+2024-05-22 11:17:10,220 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=alice&password=wonderland "HTTP/1.1 200 OK"
+2024-05-22 11:17:10,223 - root - INFO - Started logging
+2024-05-22 11:17:10,223 - root - INFO - Started logging
+2024-05-22 11:17:10,229 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=bob&password=builder "HTTP/1.1 200 OK"
+2024-05-22 11:17:10,229 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=bob&password=builder "HTTP/1.1 200 OK"
+2024-05-22 11:17:10,231 - root - INFO - Started logging
+2024-05-22 11:17:10,231 - root - INFO - Started logging
+2024-05-22 11:17:10,231 - root - INFO - Started logging
+2024-05-22 11:17:10,238 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:17:10,238 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:17:10,238 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,694 - root - INFO - Started logging
+2024-05-22 11:18:13,704 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=alice&password=wonderland "HTTP/1.1 200 OK"
+2024-05-22 11:18:13,706 - root - INFO - Started logging
+2024-05-22 11:18:13,706 - root - INFO - Started logging
+2024-05-22 11:18:13,713 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=bob&password=builder "HTTP/1.1 200 OK"
+2024-05-22 11:18:13,713 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=bob&password=builder "HTTP/1.1 200 OK"
+2024-05-22 11:18:13,715 - root - INFO - Started logging
+2024-05-22 11:18:13,715 - root - INFO - Started logging
+2024-05-22 11:18:13,715 - root - INFO - Started logging
+2024-05-22 11:18:13,722 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,722 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:13,722 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,597 - root - INFO - Started logging
+2024-05-22 11:18:59,606 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=alice&password=wonderland "HTTP/1.1 200 OK"
+2024-05-22 11:18:59,609 - root - INFO - Started logging
+2024-05-22 11:18:59,609 - root - INFO - Started logging
+2024-05-22 11:18:59,615 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=bob&password=builder "HTTP/1.1 200 OK"
+2024-05-22 11:18:59,615 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=bob&password=builder "HTTP/1.1 200 OK"
+2024-05-22 11:18:59,617 - root - INFO - Started logging
+2024-05-22 11:18:59,617 - root - INFO - Started logging
+2024-05-22 11:18:59,617 - root - INFO - Started logging
+2024-05-22 11:18:59,624 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,624 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
+2024-05-22 11:18:59,624 - httpx - INFO - HTTP Request: GET http://api:8000/permissions?username=clementine&password=mandarine "HTTP/1.1 403 Forbidden"
